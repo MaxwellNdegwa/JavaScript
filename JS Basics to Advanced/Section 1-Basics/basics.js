@@ -1,5 +1,5 @@
 console.clear();
-/*clears the console evertime the code is run. it isn't working at the moment, not sure why.*/
+/*clears the console evertime the code is run.*/
 
 
 var num1 = 23;
