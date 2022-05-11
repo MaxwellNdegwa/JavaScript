@@ -1,3 +1,5 @@
+//in built number functions
+
 //tostring() number as input and returns as string
 var num1 = 10;
 var num2 = 92;
