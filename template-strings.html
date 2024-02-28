@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template strings</title>
+</head>
+<body>
+    <script>
+        // template literals uses ` to convert content into a string then using ${passing in a javascript expression}`
+
+        const recipient = "James"
+        const sender = "Maxwell"
+
+        //Refactor the email string to use template strings
+        const email = `
+            Hey  ${recipient}! 
+            How is it going? Cheers,
+            ${sender}.
+        `
+
+        console.log(email)
+
+    </script>
+</body>
+</html>

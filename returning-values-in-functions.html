@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Returning values in Functions</title>
+</head>
+<body>
+    <script>
+
+        let player1Time = 153
+        let player2Time = 140
+
+        function getFastestRaceTime() {
+            if (player1Time < player2Time) {
+                return player1Time
+            }
+            else {
+                return player2Time
+            }
+        }
+
+        let fastestRace = getFastestRaceTime()  
+        console.log(fastestRace)
+
+        function getTotalRaceTime() {
+            return player1Time + player2Time
+        }
+
+        let totalRaceTime =  getTotalRaceTime()
+        console.log(totalRaceTime)
+
+
+        //random
+
+        function rollDice() {
+            let randomNumber = Math.floor ( Math.random() * 6) + 1
+            return randomNumber
+        }
+        
+        console.log(rollDice())
+
+    </script>
+    
+</body>
+</html>

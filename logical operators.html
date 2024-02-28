@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical Operators</title>
+</head>
+<body>
+    <script>
+
+        let hasSolvedChallenge = false
+        let hasHintsLeft = false
+
+        if (hasSolvedChallenge === true && hasHintsLeft === false) {
+            showSolution()
+        } else if (hasSolvedChallenge === true || hasHintsLeft === false){
+            showSolution()
+        }
+        
+
+        function showSolution() {
+            console.log("Showing solution")
+        }
+
+
+        let dayOfMonth = 13
+        let weekday = "Friday"
+
+        if (weekday === "Friday" && dayOfMonth === 13 ) {
+            console.log("It's a spooky day!")
+        }
+
+    </script>
+</body>
+</html>

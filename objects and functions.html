@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <script>
+
+        let course = {
+            title: "Learn Javascript for Free",
+            lessons: 16,
+            creator: "Maxwell Ndegwa",
+            length: 63,
+            level: 2,
+            isFree: true,
+            tags: ["html", "css"]
+        }
+
+        console.log(course.length) // dot notation
+        console.log(course["creator"]) // bracket notation
+
+        let person = {
+            name: "Joy",
+            age: 22,
+            country: "Kenya"
+        }
+
+        function logdata() {
+            console.log(person.name + " is " + person.age + " years old and lives in " + person.country )
+        }
+        logdata()
+    </script>
+</body>
+</html>

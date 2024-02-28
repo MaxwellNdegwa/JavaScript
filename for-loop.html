@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loop</title>
+</head>
+<body>
+    <script>
+
+        for ( let i = 10; i < 101; i +=10) {
+            console.log(i)
+        }
+
+        let largestCountries = [
+            "Tuvula",
+            "India",
+            "USA",
+            "Indonesia",
+            "Monaco"
+        ]
+
+        // removal and replacement of the last element
+        largestCountries.pop()
+        largestCountries.push("Pakistan")
+
+        // removal and replacement of the first element
+        largestCountries.shift("Tuvula")
+        largestCountries.unshift("China")
+
+        console.log("The 5 Largest countries in the world:")
+        for ( let i = 0; i < largestCountries.length; i ++ ) {
+            console.log( "-" + largestCountries[i]) 
+        }
+
+    </script>
+</body>
+</html>
